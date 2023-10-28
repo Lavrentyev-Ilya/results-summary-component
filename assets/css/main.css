@@ -5,8 +5,32 @@ body {
   font-family: "Hanken+Grotesk", serif;
 }
 
+p {
+  font-size: 18px;
+}
+
 .attribution {
   font-size: 12px;
   text-align: center;
   color: hsl(228, 45%, 44%);
+}
+
+.wrapBlock {
+  margin: 0 auto;
+  width: 500px;
+}
+.wrapBlock .contentBlock {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+}
+.wrapBlock .resWrapBlock, .wrapBlock .sumWrapBlock {
+  flex: 50%;
+}
+.wrapBlock .resInnerBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
